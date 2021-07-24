@@ -30,7 +30,6 @@ jobs:
           python -m pip install --upgrade pip
           # 必要なパッケージインストール
           apt install chromium-chromedriver
-          cp /usr/lib/chromium-browser/chromedriver /usr/bin
           pip install selenium
           pip install line-bot-sdk
       - name: Run script
