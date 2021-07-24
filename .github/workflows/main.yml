@@ -31,8 +31,8 @@ jobs:
           # 必要なパッケージインストール
           sudo apt-get update
           sudo apt install chromium-chromedriver
-          sudo pip install selenium
-          sudo pip install line-bot-sdk
+          pip install selenium
+          pip install line-bot-sdk
       - name: Run script
         run: |
           # main.pyの実行
