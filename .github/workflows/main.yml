@@ -33,6 +33,7 @@ jobs:
           sudo apt install chromium-chromedriver
           pip install selenium
           pip install line-bot-sdk
+          pip install beautifulsoup4
       - name: Run script
         run: |
           # main.pyの実行
