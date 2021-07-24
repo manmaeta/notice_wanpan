@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           # pip更新
-          python -m pip install --upgrade pip
+          sudo python -m pip install --upgrade pip
           # 必要なパッケージインストール
           apt install chromium-chromedriver
           pip install selenium
