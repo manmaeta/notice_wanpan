@@ -29,6 +29,7 @@ jobs:
           # pip更新
           sudo python -m pip install --upgrade pip
           # 必要なパッケージインストール
+          apt-get update
           apt install chromium-chromedriver
           pip install selenium
           pip install line-bot-sdk
